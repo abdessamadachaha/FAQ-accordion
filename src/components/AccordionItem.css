@@ -1,0 +1,23 @@
+.accordionItem {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 1px solid rgb(244, 244, 244);
+    padding: 25px  10px;
+}
+
+.accordionItem div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordionItem div p {
+    font-weight: 600;
+}
+
+.accordionItem>p {
+    color: gray;
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
